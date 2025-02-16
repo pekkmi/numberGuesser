@@ -1,3 +1,5 @@
 #include "game.h"
 
-game::game() {}
+game::game() {
+    cout << "kukkuu maailma!" << endl;
+}
