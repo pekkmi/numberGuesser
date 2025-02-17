@@ -64,7 +64,7 @@ void Game::startNewGame() {
     }else if (newGame == 'n' || newGame =='N') {
         return;
     }else {
-        cout << "Invalid input. Choos Y/N!" << endl;
+        cout << "Invalid input. Choose Y/N!" << endl;
         return Game::startNewGame();
     }
 }
